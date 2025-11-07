@@ -2,9 +2,9 @@
 
 ## Overview
 
-This Docker container hosts four self-contained capture-the-flag challenges.
+This Docker container hosts four self-contained capture-the-flag challenges.  
 Each challenge demonstrates a core cyber-security skill area:
-packet analysis, service enumeration, basic cryptography, and file metadata inspection.
+packet analysis, service enumeration, basic cryptography, and file metadata inspection.  
 All tools needed are already installed inside the container.
 
 ## Files in Repo
