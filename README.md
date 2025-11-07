@@ -8,7 +8,7 @@ packet analysis, service enumeration, basic cryptography, and file metadata insp
 All tools needed are already installed inside the container.
 
 ## Files in Repo
-Hint.md - Reveals a hint for the CTF challenge
+Hint.md - Reveals a hint for the CTF challenge  
 AnswerKey.md - Reveals how to find the different flags
 
 ## PCAP - Suspicious Packet
