@@ -71,7 +71,7 @@ RUN printf '%s\n' \
 # -------------------------------------------------
 
 RUN mkdir -p /opt/ctf/pcap
-COPY ./pcap/suspicious.pcap /opt/ctf/pcap/suspicious.pcap
+#COPY ./pcap/suspicious.pcap /opt/ctf/pcap/suspicious.pcap
 RUN printf '%s\n' \
   '  Goal: Analyze the provided PCAP file to uncover hidden messages and extract the secret flag.' \
   '  Open the suspicious.pcap file using Wireshark or tshark or any other packet analysis tool.' \
@@ -81,6 +81,9 @@ RUN printf '%s\n' \
 RUN printf '%s\n' '  Hint: Focus on UDP packets and look for any anomalies in the payloads.' \
   > /opt/ctf/pcap/.hint.txt
 
+RUN printf '%s \n' '⠓⠚⠀⠊⠋⠀⠊⠋⠀⠊⠉⠀⠊⠑⠀⠑⠇⠀⠙⠧⠀⠙⠧⠀⠓⠋⠀⠊⠙⠀⠓⠅⠀⠊⠓⠀⠓⠛⠀⠙⠥⠀⠓⠊⠀⠓⠧⠀⠓⠧⠀⠓⠊⠀⠓⠗⠀⠓⠛⠀⠙⠥⠀⠓⠑⠀⠓⠧⠀⠓⠞⠀⠙⠧⠀⠓⠓⠀⠓⠅⠀⠓⠗⠀⠓⠛⠀⠙⠧⠀⠓⠋⠀⠙⠧⠀⠑⠃⠀⠑⠊⠀⠓⠚⠀⠓⠞⠀⠋⠧⠀⠓⠑⠀⠋⠇⠀⠓⠇⠀⠛⠃⠀⠑⠛⠀⠑⠉⠀⠊⠑⠀⠛⠃⠀⠑⠑⠀⠓⠇⠀⠓⠙⠀⠊⠙⠀⠊⠛⠀⠋⠋⠀⠓⠃⠀⠋⠗⠀⠋⠚⠀⠛⠃⠀⠛⠑⠀⠊⠇⠀⠊⠉⠀⠓⠃⠀⠊⠓⠀⠑⠋⠀⠑⠚⠀⠑⠅⠀⠑⠃⠀⠋⠋⠀⠙⠧⠀⠊⠓⠀⠓⠅⠀⠓⠛⠀⠊⠊⠀⠑⠧⠀⠊⠛⠀⠊⠑⠀⠊⠉⠀⠑⠞⠀⠓⠋⠀⠊⠙⠀⠓⠅⠀⠊⠓⠀⠓⠛⠀⠛⠧⠀⠓⠗⠀⠓⠅⠀⠓⠥⠀⠓⠝' \
+  > /opt/ctf/pcap/pcap.txt
+  
 # -------------------------------------------------
 # NETWORK Challenge
 # -------------------------------------------------
